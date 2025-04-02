@@ -994,13 +994,13 @@ test = ["ipykernel", "pre-commit", "pytest (<8)", "pytest-cov", "pytest-timeout"
 
 [[package]]
 name = "keras"
-version = "3.9.1"
+version = "3.9.2"
 description = "Multi-backend Keras"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "keras-3.9.1-py3-none-any.whl", hash = "sha256:cd0cefb3651814cf8bfc70d1f18173738db9e75fb3211cd567eff6a7567fb1c8"},
-    {file = "keras-3.9.1.tar.gz", hash = "sha256:1ba893820258d4eab9a5a94a6faae2d8f4b134019d0bfa19868606b6381502ff"},
+    {file = "keras-3.9.2-py3-none-any.whl", hash = "sha256:404427856c2dc30e38c9fa6fa6a13ffb1844a8c35af312ca32a8e7dea9840f1e"},
+    {file = "keras-3.9.2.tar.gz", hash = "sha256:322aab6418ee3de1e2bd0871b60a07f0e444e744a7e8cba79af8b42408879ecf"},
 ]
 
 [package.dependencies]
@@ -3585,4 +3585,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "e2088edfba12f90d21e27650060de4a6c79bf6468a1172dfa87216c12b051ec3"
+content-hash = "f72ad3e3827afa8b8c951c51e7c98568aa2b7a4c51a1c9f8d3d2476c9cf5082a"
