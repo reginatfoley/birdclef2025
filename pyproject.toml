@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "birdclef2025"
+version = "0.1.0"
+description = ""
+authors = ["reginatfoley <regina.tamo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+librosa = "^0.10.1"
+audiomentations = "^0.40.0"
+torch = "^2.0.0"
+torchaudio = "^2.0.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.0"
+soundfile = "^0.12.1"
+seaborn = "^0.13.2"
+tensorflow = "^2.19.0"
+tensorflow-hub = "^0.16.1"
+mediapipe = "^0.10.21"
+tqdm = "^4.67.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
